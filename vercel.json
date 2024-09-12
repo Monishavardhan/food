@@ -1,4 +1,10 @@
-{
-    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+
+
+  {
+    "build": {
+      "env": {
+        "NODE_OPTIONS": "--openssl-legacy-provider"
+      }
+    }
   }
   
